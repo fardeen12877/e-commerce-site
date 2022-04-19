@@ -1,0 +1,35 @@
+.p-search{
+    margin:20px;
+   display: flex;
+   justify-content: center;  
+}
+.p-input{
+width: 30%;
+height: 25px;
+padding: 5px;
+}
+.p-btn{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px 10px;
+    outline: none;
+  
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buy-btn{
+    padding: 5px 8px;
+    background-color: rgba(46, 46, 180, 0.712);
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    
+}
+.parces{
+    display: flex;
+    justify-content: center;
+}
