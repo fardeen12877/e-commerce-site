@@ -80,7 +80,7 @@ input{
 #signup{
     background-color:rgb(0,170,0);
              margin-top:10px;
-             margin-left:75px;
+         
              height:32px;
              width:150px;
              color:white;
@@ -90,6 +90,10 @@ input{
              .forget{
                 text-align:center;
                 margin: 10px 0;
+ }
+ .loggin{
+     display: flex ;
+     justify-content: center;
  }
  #signup:hover{
      cursor: pointer;
@@ -106,31 +110,39 @@ input{
 }
 
 
-div.left{width:100px;
-              float:left;
-              font-size:10px;
-              color:grey;
-              margin-left:20px;
-              margin-top:25px;
-              text-align:center;}
-div.right{width:100px;
-                 float:right;
-                 font-size:10px;
-                 color:grey;
-                 margin-right:20px;
-                 margin-top:25px;
-                 text-align:center;}
-p.more{font-size:14px;
-               font-weight:bold;
-                width:15px;
-               height:15px;
-               padding:0px;
-               border:1.4px solid grey;
-               border-radius:2px;
-               margin-left:42px;
-               margin-top:0px;}
-p.inc{font-family:arial;
-           color:grey;
-           margin-top:120px;
-           margin-left:100px;
-           font-size:16px;}
+div.left{
+    width:100px;
+    float:left;
+    font-size:10px;
+    color:grey;
+    margin-left:20px;
+    margin-top:30px;
+    text-align:center;
+            }
+div.right{
+    width:100px;
+    float:right;
+    font-size:10px;
+    color:grey;
+    margin-right:20px;
+    margin-top:25px;
+    text-align:center;
+                }
+p.more{
+    font-size:14px;
+    font-weight:bold;
+     width:15px;
+    height:15px;
+    padding:0px;
+    border:1.4px solid grey;
+    border-radius:2px;
+    margin-left:42px;
+    margin-top:0px;
+    }
+p.inc{
+    font-family:arial;
+    color:grey;
+    margin-top:120px;
+    margin-left:100px;
+    font-size:16px;
+        }
